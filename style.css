@@ -8,7 +8,6 @@ body {
 
 #menuBar{
   display: inline-block;
-  background-color: ;
   line-height: 400px;
   padding: 10px;
   text-align: right;
@@ -21,7 +20,7 @@ body {
 
 #menuBar a{
   color: black;
-  background-color: white; opacity: ;
+  background-color: white;
   font-family: "Lucida Console";
   border-style: double;
 }
@@ -32,9 +31,7 @@ body {
 }
 #titleBanner{
   display: block;
-  background-color: white,1;
-  margin-left: 10px;
-  margin-right: 10px;
+  background-image: url("page2img");
   border-style: double;
   border-color: white;
 }
@@ -59,20 +56,49 @@ body {
 }
 
 #mainContainer{
+  position: fixed;
   display: block;
-  background-color: white,1;
+  background-color: orange;
+  width: 400px;
+  height: 300vh;
   margin-left: 10px;
   margin-right: 10px;
   border-style: solid;
-  border-color: white;
+  border-color: black;
 }
 #paragraph{
   font-family: "Lucida Console";
   color: white;
-  text-align: center;
+  line-height: 2;
+  margin-left: 4px;
+  margin-right: 4px;
+  text-align: left;
+}
+#leftContainer{
+  position: fixed;
+  display: block;
+  background-color: orange;
+  width: 400px;
+  height: 100vh;
+  margin-left: 750px;
+  margin-right: 0px;
+  border-style: solid;
+  border-color: black;
+}
+
+#leftContainer p{
+  color: black;
+  margin-left: 150px;
+  margin-right: auto;
+  padding: 2px;
+  width: 100px ;
+  height: auto;
+  background-color: white;
+  font-family: "Arial";
+  border-style: double;
 }
 .video{
-  position:fixed;
+  position: fixed;
   bottom: 0;
   background: rgba(0,0,0,0.5);
   color: #flflfl;
